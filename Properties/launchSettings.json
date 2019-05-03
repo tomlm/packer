@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "packer": {
+      "commandName": "Project",
+      "commandLineArgs": "--compress C:\\scratch\\packer\\foo.nupkg foo2.zip"
+    }
+  }
+}

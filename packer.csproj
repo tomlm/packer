@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+    <Authors>Tom Laird-McConnell</Authors>
+    <Product />
+    <Description>Command line zip and unzipper</Description>
+    <PackageProjectUrl>https://github.com/tomlm/packer</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/tomlm/packer</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>packer</PackageId>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>packer</ToolCommandName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE" Pack="true" PackagePath=""/>
+  </ItemGroup>
+
+</Project>
