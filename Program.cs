@@ -32,7 +32,7 @@ namespace packer
                 case "zip":
                 case "compress":
                     {
-                        var filename = (args.Length == 3) ? args[2] : Path.GetFileName(args[1]) + "zip";
+                        var filename = (args.Length == 3) ? args[2] : Path.GetFileName(args[1]) + ".zip";
                         Console.WriteLine($"Creating {filename} from {args[1]}");
                         ZipFile.CreateFromDirectory(args[1], filename);
                     }

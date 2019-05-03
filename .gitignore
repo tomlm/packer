@@ -1,3 +1,8 @@
 bin/**
 obj/**
 nupkg/**
+.vs/packer/v16/Server/sqlite3/storage.ide-wal
+.vs/packer/v16/Server/sqlite3/storage.ide-shm
+.vs/packer/v16/Server/sqlite3/storage.ide
+.vs/packer/v16/Server/sqlite3/db.lock
+.vs/packer/v16/.suo

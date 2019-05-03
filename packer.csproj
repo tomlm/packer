@@ -18,10 +18,11 @@
   <PropertyGroup>
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>packer</ToolCommandName>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="LICENSE" Pack="true" PackagePath=""/>
+    <None Include="LICENSE" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
